@@ -90,7 +90,7 @@ void List::delete_item()
                                  
         }
         cin>>choice;
-        list[choice] = nullptr;
+        list.erase(list.begin() + choice);
         
     }
     else
